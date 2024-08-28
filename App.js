@@ -36,6 +36,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#f5f5f5',
     paddingHorizontal: 20,
     paddingTop: 10,
+    flexDirection: 'row',
+    flexWrap: 'wrap',
   },
   bloque1: {
     width: '100%',
@@ -58,8 +60,10 @@ const styles = StyleSheet.create({
   bloque3: {
     width: '100%',
     flexDirection: 'row',
+    flexWrap: 'wrap',
     justifyContent: 'space-around',
     alignItems: 'center',
+    marginBottom: 10,
     paddingHorizontal: 20,
   },
   Subbloque1: {
@@ -91,15 +95,15 @@ const styles = StyleSheet.create({
   },
   bloque4: {
     width: '100%',
-    height: 300,
+    height: 250,
     backgroundColor: '#FFD700',
-    marginBottom: 10,
+    marginBottom: 30,
     borderRadius: 20,
     justifyContent: 'center',
     alignItems: 'center',
   },
   texto: {
-    fontSize: 24, // Tamaño de texto más grande
-    fontWeight: 'bold', // Texto en negrita
+    fontSize: 24,
+    fontWeight: 'bold',
   },
 });
